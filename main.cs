@@ -8,7 +8,7 @@ class Program {
     
     Console.WriteLine("Enter a Number");
     int x = Convert.ToInt32(Console.ReadLine());
-    for (int num = 2; num < x; num++)
+    for (int num = 1; num < x; ++num)
     {
       if (x%num == 0)
       {
